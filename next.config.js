@@ -2,5 +2,5 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 module.exports = withBundleAnalyzer({
-  assetPrefix: process.env.ASSET_PREFIX || ''
+  assetPrefix: process.env.NEXT_PUBLIC_ASSET_PREFIX || ''
 })
