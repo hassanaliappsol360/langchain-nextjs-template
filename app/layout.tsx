@@ -62,7 +62,7 @@ export default function RootLayout({
           <div className="grid grid-cols-[1fr,auto] gap-2 p-4">
             <div className="flex gap-4 flex-col md:flex-row md:items-center">
               <a
-                href="https://js.langchain.com"
+                href="https://langchain-nextjs-template-nu-sand.vercel.app"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="flex items-center gap-2"
@@ -70,16 +70,16 @@ export default function RootLayout({
                 <Logo />
               </a>
               <nav className="flex gap-1 flex-col md:flex-row">
-                <ActiveLink href="/">🏴‍☠️ Chat</ActiveLink>
-                <ActiveLink href="/structured_output">
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/">🏴‍☠️ Chat</ActiveLink>
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/structured_output">
                   🧱 Structured Output
                 </ActiveLink>
-                <ActiveLink href="/agents">🦜 Agents</ActiveLink>
-                <ActiveLink href="/retrieval">🐶 Retrieval</ActiveLink>
-                <ActiveLink href="/retrieval_agents">
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/agents">🦜 Agents</ActiveLink>
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/retrieval">🐶 Retrieval</ActiveLink>
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/retrieval_agents">
                   🤖 Retrieval Agents
                 </ActiveLink>
-                <ActiveLink href="/ai_sdk">
+                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/ai_sdk">
                   🌊 LangChain x AI SDK RSC
                 </ActiveLink>
               </nav>
