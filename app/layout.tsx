@@ -1,3 +1,4 @@
+"use client";
 import "./globals.css";
 import { Public_Sans } from "next/font/google";
 import { ActiveLink } from "@/components/Navbar";
@@ -62,24 +63,24 @@ export default function RootLayout({
           <div className="grid grid-cols-[1fr,auto] gap-2 p-4">
             <div className="flex gap-4 flex-col md:flex-row md:items-center">
               <a
-                href="https://langchain-nextjs-template-nu-sand.vercel.app"
+                href="http://localhost:3000/ai-mentors-2"
                 rel="noopener noreferrer"
-                target="_blank"
+                // target="_blank"
                 className="flex items-center gap-2"
               >
                 <Logo />
               </a>
               <nav className="flex gap-1 flex-col md:flex-row">
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/">🏴‍☠️ Chat</ActiveLink>
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/structured_output">
+                <ActiveLink href="/">🏴‍☠️ Chat</ActiveLink>
+                <ActiveLink href="/structured_output">
                   🧱 Structured Output
                 </ActiveLink>
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/agents">🦜 Agents</ActiveLink>
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/retrieval">🐶 Retrieval</ActiveLink>
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/retrieval_agents">
+                <ActiveLink href="/agents">🦜 Agents</ActiveLink>
+                <ActiveLink href="/retrieval">🐶 Retrieval</ActiveLink>
+                <ActiveLink href="/retrieval_agents">
                   🤖 Retrieval Agents
                 </ActiveLink>
-                <ActiveLink href="https://langchain-nextjs-template-nu-sand.vercel.app/ai_sdk">
+                <ActiveLink href="/ai_sdk">
                   🌊 LangChain x AI SDK RSC
                 </ActiveLink>
               </nav>
